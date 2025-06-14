@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.montserrat {
+  font-family: "montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  font-family: "montserrat", sans-serif;
+  font-size: 16px;
+  color: #666666;
+  margin: 0
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: lightgrey;
+  border-bottom: 1px solid lightgrey
+}
+.menu {
+  padding-top: 20px
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex
+}
+.menu ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #555555;
+  border-radius: 20px
+}
+.menu ul li a:hover {
+  background-color: darkred;
+  color: white
+}
+#slide .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+}
+#slide .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+}
+#slide .owl-nav {
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  width: 100%;
+}
+#slide .owl-nav [class*='owl-'] {
+  font-size: 70px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #f78f91
+}
+#slide .owl-nav .owl-next {
+  position: absolute;
+  right: 5%;
+}
+#slide .owl-nav .owl-prev {
+  position: absolute;
+  left: 5%;
+}
+#slide .owl-nav [class*='owl-']:hover {
+  background: none;
+  border: none;
+  color: darkred;
+  text-decoration: none;
+}
+main {
+  width: 100%;
+  min-height: 500px
+}
+.text-do {
+  color: darkred
+}
+aside ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column
+}
+aside ul li {
+  border-bottom: 1px solid #666666
+}
+aside ul li a {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: #666666
+}
+aside ul li a:hover {
+  background-color: darkred;
+  color: white
+}
+.sp {
+  font-size: 16px;
+  font-weight: bold;
+  color: darkred
+}
+footer {
+  width: 100%;
+  min-height: 200px;
+  background-color: lightgray;
+  margin: 0
+}
+.bg-do {
+  width: 100%;
+  min-height: 200px;
+  background-color: darkred;
+  color: white;
+  text-align: center
+}
+.mr-10 {
+  padding-right: 10px
+}
+footer a {
+  color: #666666
+}
+footer a:hover {
+  color: darkred
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column
+}
+footer ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white
+}
+footer ul li a:hover {
+  color: lightgray
+}
